@@ -3,11 +3,11 @@
 	"publishConfig": {
 		"registry": "https://npm.pkg.github.com"
 	},
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "A React library supporting Binary Pursuits React product.",
 	"scripts": {
 		"start": "parcel",
-		"build": "parcel build",
+		"build": "parcel build src/index.ts",
 		"generate": "plop",
 		"test": "jest",
 		"storybook": "start-storybook -p 6006",
@@ -22,9 +22,6 @@
 	"types": "dist/types.d.ts",
 	"peerDependencies": {
 		"react": "^17.0.2"
-	},
-	"dependencies": {
-		"monaco-editor": "^0.31.1"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.16.12",

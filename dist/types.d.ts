@@ -1,7 +1,6 @@
-import * as monaco from "monaco-editor";
-interface MonicoEditorProps {
-    options: monaco.editor.IStandaloneEditorConstructionOptions;
+interface HelloWorldProps {
+    name: string;
 }
-export function MonacoEditor({ options }: MonicoEditorProps): JSX.Element;
+export function HelloWorld({ name }: HelloWorldProps): JSX.Element;
 
 //# sourceMappingURL=types.d.ts.map
