@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import ReactDOMServer from "react-dom/server";
 import { HelloWorld } from "../components";
 
 export default class HelloWorldWC extends HTMLElement {
@@ -24,17 +24,7 @@ export default class HelloWorldWC extends HTMLElement {
   }
 
   render() {
-    const root = this.attachShadow({ mode: "open" });
-    const mountPoint = document.createElement("div");
-
-    root.appendChild(mountPoint);
-
-    ReactDOM.render(<HelloWorld name={this._name} />, mountPoint);
-    // this.innerHTML = `
-    //   <div class="hello-world">
-    //     <h3>Hello World from ${this._name}
-    //   </div>
-    // `;
+    this.innerHTML = ReactDOMServer.renderToString(<HelloWorld name={this._name} />);
   }
 
   get name() {
