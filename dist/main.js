@@ -1,6 +1,5 @@
 var $8zHUo$reactjsxruntime = require("react/jsx-runtime");
 require("react");
-var $8zHUo$reactdomserver = require("react-dom/server");
 
 function $parcel$exportWildcard(dest, source) {
   Object.keys(source).forEach(function(key) {
@@ -20,9 +19,6 @@ function $parcel$exportWildcard(dest, source) {
 }
 function $parcel$export(e, n, v, s) {
   Object.defineProperty(e, n, {get: v, set: s, enumerable: true, configurable: true});
-}
-function $parcel$interopDefault(a) {
-  return a && a.__esModule ? a.default : a;
 }
 var $5dcc767f924b770d$exports = {};
 
@@ -49,15 +45,6 @@ function $f3d6c3c15e5e0ece$export$2e2bcd8739ae039({ firstName: firstName , lastN
 }
 
 
-
-
-
-
-function $15e05c4af0628512$export$80e7718417253a51(props) {
-    return ($parcel$interopDefault($8zHUo$reactdomserver)).renderToString(/*#__PURE__*/ $8zHUo$reactjsxruntime.jsx($f3d6c3c15e5e0ece$export$2e2bcd8739ae039, {
-        ...props
-    }));
-}
 
 
 

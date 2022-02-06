@@ -1,6 +1,5 @@
 import {jsxs as $hgUW1$jsxs, jsx as $hgUW1$jsx} from "react/jsx-runtime";
 import "react";
-import $hgUW1$reactdomserver from "react-dom/server";
 
 function $parcel$export(e, n, v, s) {
   Object.defineProperty(e, n, {get: v, set: s, enumerable: true, configurable: true});
@@ -30,15 +29,6 @@ function $3777cca87b211b5a$export$2e2bcd8739ae039({ firstName: firstName , lastN
 }
 
 
-
-
-
-
-function $28d512319d89e47f$export$80e7718417253a51(props) {
-    return $hgUW1$reactdomserver.renderToString(/*#__PURE__*/ $hgUW1$jsx($3777cca87b211b5a$export$2e2bcd8739ae039, {
-        ...props
-    }));
-}
 
 
 
