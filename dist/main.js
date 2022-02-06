@@ -17,15 +17,20 @@ function $parcel$exportWildcard(dest, source) {
 
   return dest;
 }
+function $parcel$defineInteropFlag(a) {
+  Object.defineProperty(a, '__esModule', {value: true, configurable: true});
+}
 function $parcel$export(e, n, v, s) {
   Object.defineProperty(e, n, {get: v, set: s, enumerable: true, configurable: true});
 }
-var $5dcc767f924b770d$exports = {};
+var $2807d6594a8e9dd2$exports = {};
 
-$parcel$export($5dcc767f924b770d$exports, "HelloWorld", () => $f3d6c3c15e5e0ece$export$2e2bcd8739ae039);
+$parcel$defineInteropFlag($2807d6594a8e9dd2$exports);
+
+$parcel$export($2807d6594a8e9dd2$exports, "default", () => $2807d6594a8e9dd2$export$2e2bcd8739ae039);
 
 
-function $f3d6c3c15e5e0ece$export$2e2bcd8739ae039({ firstName: firstName , lastName: lastName  }) {
+function $2807d6594a8e9dd2$export$2e2bcd8739ae039({ firstName: firstName , lastName: lastName  }) {
     return(/*#__PURE__*/ $8zHUo$reactjsxruntime.jsxs("div", {
         children: [
             /*#__PURE__*/ $8zHUo$reactjsxruntime.jsx("h1", {
@@ -45,13 +50,7 @@ function $f3d6c3c15e5e0ece$export$2e2bcd8739ae039({ firstName: firstName , lastN
 }
 
 
-
-
-
-
-
-
-$parcel$exportWildcard(module.exports, $5dcc767f924b770d$exports);
+$parcel$exportWildcard(module.exports, $2807d6594a8e9dd2$exports);
 
 
 //# sourceMappingURL=main.js.map
